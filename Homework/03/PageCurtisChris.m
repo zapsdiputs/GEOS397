@@ -38,11 +38,11 @@ legend('legend');
 title('Moraine');
 %Based on dx = 1, at which x location does the maximum elevation occur in our triangular topography
 %model?
-%At the location 15 is where the maximum location for x occurs.
+%At the location 14 is where the maximum location for x occurs.
 %Plot the initial topography at time zero.
 %Step 3: Loop through time to compute the topography at t + dt
 %Make a for loop that runs from t0+dt:dt:tMax
-tMax= 100;
+tMax=100;
 t0=dt;
 0+dt:dt:tMax;
 t0+dt:dt:tMax;
@@ -52,5 +52,5 @@ t0+dt:dt:tMax;
 dt = 1;
 dx = 1;
 k=0.099574;
-tMax =100;
+tMax=100;
 t0 = 1;
